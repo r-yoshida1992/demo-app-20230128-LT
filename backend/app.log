@@ -1,0 +1,882 @@
+2023-01-27T01:11:29.510+09:00  INFO 31776 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-01-27T01:11:29.535+09:00  INFO 31776 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T01:11:29.538+09:00  INFO 31776 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T01:11:29.630+09:00  INFO 31776 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 31776 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T01:11:29.631+09:00  INFO 31776 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T01:11:30.315+09:00  INFO 31776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T01:11:30.316+09:00  INFO 31776 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T01:11:30.316+09:00  INFO 31776 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T01:11:30.335+09:00  INFO 31776 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T01:11:30.335+09:00  INFO 31776 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 702 ms
+2023-01-27T01:11:30.384+09:00  INFO 31776 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T01:11:30.419+09:00  INFO 31776 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T01:11:30.552+09:00  INFO 31776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T01:11:30.558+09:00  INFO 31776 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.963 seconds (process running for 4912.289)
+2023-01-27T01:11:30.563+09:00  INFO 31776 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T01:11:32.863+09:00  INFO 31776 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-01-27T01:11:32.875+09:00  INFO 31776 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T01:11:32.944+09:00  INFO 31776 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 31776 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T01:11:32.944+09:00  INFO 31776 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T01:11:33.116+09:00  INFO 31776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T01:11:33.117+09:00  INFO 31776 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T01:11:33.117+09:00  INFO 31776 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T01:11:33.132+09:00  INFO 31776 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T01:11:33.132+09:00  INFO 31776 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 185 ms
+2023-01-27T01:11:33.177+09:00  INFO 31776 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T01:11:33.195+09:00  INFO 31776 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T01:11:33.313+09:00  INFO 31776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T01:11:33.315+09:00  INFO 31776 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.396 seconds (process running for 4915.046)
+2023-01-27T01:11:33.316+09:00  INFO 31776 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T01:11:34.615+09:00  INFO 31776 --- [https-jsse-nio-443-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T01:11:34.615+09:00  INFO 31776 --- [https-jsse-nio-443-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T01:11:34.616+09:00  INFO 31776 --- [https-jsse-nio-443-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T01:13:07.958+09:00  INFO 31776 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-01-27T01:13:07.972+09:00  INFO 31776 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T01:13:07.973+09:00  INFO 31776 --- [Thread-11] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T01:13:08.054+09:00  INFO 31776 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 31776 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T01:13:08.054+09:00  INFO 31776 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T01:13:08.213+09:00  INFO 31776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T01:13:08.215+09:00  INFO 31776 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T01:13:08.215+09:00  INFO 31776 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T01:13:08.227+09:00  INFO 31776 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T01:13:08.227+09:00  INFO 31776 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 171 ms
+2023-01-27T01:13:08.256+09:00  INFO 31776 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T01:13:08.271+09:00  INFO 31776 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T01:13:08.387+09:00  INFO 31776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T01:13:08.390+09:00  INFO 31776 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.363 seconds (process running for 5010.121)
+2023-01-27T01:13:08.391+09:00  INFO 31776 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T01:13:09.741+09:00  INFO 31776 --- [https-jsse-nio-443-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T01:13:09.741+09:00  INFO 31776 --- [https-jsse-nio-443-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T01:13:09.742+09:00  INFO 31776 --- [https-jsse-nio-443-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T01:14:04.040+09:00  INFO 31776 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-01-27T01:14:04.050+09:00  INFO 31776 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T01:14:04.051+09:00  INFO 31776 --- [Thread-15] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T01:14:04.122+09:00  INFO 31776 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 31776 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T01:14:04.122+09:00  INFO 31776 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T01:14:04.290+09:00  INFO 31776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T01:14:04.291+09:00  INFO 31776 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T01:14:04.291+09:00  INFO 31776 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T01:14:04.303+09:00  INFO 31776 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T01:14:04.303+09:00  INFO 31776 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 178 ms
+2023-01-27T01:14:04.332+09:00  INFO 31776 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T01:14:04.348+09:00  INFO 31776 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T01:14:04.473+09:00  INFO 31776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T01:14:04.475+09:00  INFO 31776 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.381 seconds (process running for 5066.207)
+2023-01-27T01:14:04.477+09:00  INFO 31776 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T01:14:06.810+09:00  INFO 31776 --- [https-jsse-nio-443-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T01:14:06.811+09:00  INFO 31776 --- [https-jsse-nio-443-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T01:14:06.811+09:00  INFO 31776 --- [https-jsse-nio-443-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-01-27T01:15:33.557+09:00  INFO 35428 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 35428 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T01:15:33.561+09:00  INFO 35428 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T01:15:33.614+09:00  INFO 35428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-27T01:15:33.615+09:00  INFO 35428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-27T01:15:34.804+09:00  INFO 35428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T01:15:34.822+09:00  INFO 35428 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T01:15:34.823+09:00  INFO 35428 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T01:15:34.891+09:00  INFO 35428 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T01:15:34.892+09:00  INFO 35428 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1276 ms
+2023-01-27T01:15:35.158+09:00  INFO 35428 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T01:15:35.340+09:00  INFO 35428 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T01:15:35.666+09:00  INFO 35428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T01:15:35.676+09:00  INFO 35428 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 2.709 seconds (process running for 3.453)
+2023-01-27T01:15:40.144+09:00  INFO 35428 --- [https-jsse-nio-443-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T01:15:40.144+09:00  INFO 35428 --- [https-jsse-nio-443-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T01:15:40.145+09:00  INFO 35428 --- [https-jsse-nio-443-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T01:15:59.522+09:00  INFO 10072 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 10072 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T01:15:59.527+09:00  INFO 10072 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T01:15:59.590+09:00  INFO 10072 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-27T01:15:59.590+09:00  INFO 10072 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-27T01:16:00.689+09:00  INFO 10072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T01:16:00.709+09:00  INFO 10072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T01:16:00.710+09:00  INFO 10072 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T01:16:00.781+09:00  INFO 10072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T01:16:00.782+09:00  INFO 10072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1192 ms
+2023-01-27T01:16:01.074+09:00  INFO 10072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T01:16:01.220+09:00  INFO 10072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T01:16:01.565+09:00  INFO 10072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T01:16:01.589+09:00  INFO 10072 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 2.664 seconds (process running for 3.472)
+2023-01-27T01:16:07.148+09:00  INFO 10072 --- [https-jsse-nio-443-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T01:16:07.149+09:00  INFO 10072 --- [https-jsse-nio-443-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T01:16:07.150+09:00  INFO 10072 --- [https-jsse-nio-443-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T01:27:04.215+09:00  INFO 31776 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 31776 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T01:27:04.219+09:00  INFO 31776 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T01:27:04.288+09:00  INFO 31776 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-27T01:27:04.288+09:00  INFO 31776 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-27T01:27:05.475+09:00  INFO 31776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T01:27:05.493+09:00  INFO 31776 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T01:27:05.494+09:00  INFO 31776 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T01:27:05.564+09:00  INFO 31776 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T01:27:05.565+09:00  INFO 31776 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1276 ms
+2023-01-27T01:27:05.831+09:00  INFO 31776 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T01:27:06.018+09:00  INFO 31776 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T01:27:06.411+09:00  INFO 31776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T01:27:06.424+09:00  INFO 31776 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 2.883 seconds (process running for 3.798)
+2023-01-27T01:27:10.415+09:00  INFO 31776 --- [https-jsse-nio-443-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T01:27:10.416+09:00  INFO 31776 --- [https-jsse-nio-443-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T01:27:10.417+09:00  INFO 31776 --- [https-jsse-nio-443-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T01:27:35.340+09:00  INFO 38512 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 38512 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T01:27:35.344+09:00  INFO 38512 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T01:27:35.397+09:00  INFO 38512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-27T01:27:35.397+09:00  INFO 38512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-27T01:27:36.497+09:00  INFO 38512 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T01:27:36.513+09:00  INFO 38512 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T01:27:36.514+09:00  INFO 38512 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T01:27:36.598+09:00  INFO 38512 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T01:27:36.599+09:00  INFO 38512 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1201 ms
+2023-01-27T01:27:36.839+09:00  INFO 38512 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T01:27:36.983+09:00  INFO 38512 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T01:27:37.306+09:00  INFO 38512 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T01:27:37.318+09:00  INFO 38512 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 2.667 seconds (process running for 3.478)
+2023-01-27T01:27:43.336+09:00  INFO 38512 --- [https-jsse-nio-443-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T01:27:43.336+09:00  INFO 38512 --- [https-jsse-nio-443-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T01:27:43.337+09:00  INFO 38512 --- [https-jsse-nio-443-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-01-27T07:22:46.681+09:00  INFO 41100 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41100 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T07:22:46.683+09:00  INFO 41100 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T07:22:46.744+09:00  INFO 41100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-27T07:22:46.744+09:00  INFO 41100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-27T07:22:47.822+09:00  INFO 41100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T07:22:47.840+09:00  INFO 41100 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T07:22:47.841+09:00  INFO 41100 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T07:22:47.919+09:00  INFO 41100 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T07:22:47.921+09:00  INFO 41100 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1176 ms
+2023-01-27T07:22:48.174+09:00  INFO 41100 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T07:22:48.322+09:00  INFO 41100 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T07:22:48.661+09:00  INFO 41100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T07:22:48.671+09:00  INFO 41100 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 2.611 seconds (process running for 3.425)
+2023-01-27T07:22:53.640+09:00  INFO 41100 --- [https-jsse-nio-443-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T07:22:53.641+09:00  INFO 41100 --- [https-jsse-nio-443-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T07:22:53.644+09:00  INFO 41100 --- [https-jsse-nio-443-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T07:23:31.122+09:00  INFO 32680 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 32680 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T07:23:31.126+09:00  INFO 32680 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T07:23:31.201+09:00  INFO 32680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-27T07:23:31.202+09:00  INFO 32680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-27T07:23:32.383+09:00  INFO 32680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T07:23:32.400+09:00  INFO 32680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T07:23:32.400+09:00  INFO 32680 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T07:23:32.460+09:00  INFO 32680 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T07:23:32.460+09:00  INFO 32680 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1258 ms
+2023-01-27T07:23:32.750+09:00  INFO 32680 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T07:23:32.898+09:00  INFO 32680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T07:23:33.232+09:00  INFO 32680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T07:23:33.242+09:00  INFO 32680 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 2.797 seconds (process running for 3.598)
+2023-01-27T07:23:35.308+09:00  INFO 32680 --- [https-jsse-nio-443-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T07:23:35.309+09:00  INFO 32680 --- [https-jsse-nio-443-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T07:23:35.310+09:00  INFO 32680 --- [https-jsse-nio-443-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T07:44:36.110+09:00  INFO 1268 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 1268 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T07:44:36.114+09:00  INFO 1268 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T07:44:36.175+09:00  INFO 1268 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-27T07:44:36.175+09:00  INFO 1268 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-27T07:44:37.316+09:00  INFO 1268 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T07:44:37.333+09:00  INFO 1268 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T07:44:37.334+09:00  INFO 1268 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T07:44:37.403+09:00  INFO 1268 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T07:44:37.404+09:00  INFO 1268 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1228 ms
+2023-01-27T07:44:37.659+09:00  INFO 1268 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T07:44:37.823+09:00  INFO 1268 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T07:44:38.172+09:00  INFO 1268 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T07:44:38.180+09:00  INFO 1268 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 2.748 seconds (process running for 3.578)
+2023-01-27T07:44:39.855+09:00  INFO 1268 --- [https-jsse-nio-443-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T07:44:39.855+09:00  INFO 1268 --- [https-jsse-nio-443-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T07:44:39.856+09:00  INFO 1268 --- [https-jsse-nio-443-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T07:46:15.874+09:00  INFO 29120 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 29120 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T07:46:15.878+09:00  INFO 29120 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T07:46:15.947+09:00  INFO 29120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-27T07:46:15.947+09:00  INFO 29120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-27T07:46:17.117+09:00  INFO 29120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T07:46:17.137+09:00  INFO 29120 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T07:46:17.138+09:00  INFO 29120 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T07:46:17.203+09:00  INFO 29120 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T07:46:17.203+09:00  INFO 29120 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1255 ms
+2023-01-27T07:46:17.447+09:00  INFO 29120 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T07:46:17.629+09:00  INFO 29120 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T07:46:17.985+09:00  INFO 29120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T07:46:17.996+09:00  INFO 29120 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 2.811 seconds (process running for 3.635)
+2023-01-27T07:46:20.617+09:00  INFO 29120 --- [https-jsse-nio-443-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T07:46:20.617+09:00  INFO 29120 --- [https-jsse-nio-443-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T07:46:20.618+09:00  INFO 29120 --- [https-jsse-nio-443-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T08:06:54.911+09:00  INFO 29120 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-01-27T08:06:54.928+09:00  INFO 29120 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T08:06:54.931+09:00  INFO 29120 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T08:06:55.023+09:00  INFO 29120 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 29120 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T08:06:55.023+09:00  INFO 29120 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T08:06:55.543+09:00  INFO 29120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T08:06:55.543+09:00  INFO 29120 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T08:06:55.544+09:00  INFO 29120 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T08:06:55.559+09:00  INFO 29120 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T08:06:55.559+09:00  INFO 29120 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 532 ms
+2023-01-27T08:06:55.616+09:00  INFO 29120 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T08:06:55.665+09:00  INFO 29120 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T08:06:55.824+09:00  INFO 29120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T08:06:55.828+09:00  INFO 29120 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.843 seconds (process running for 1241.467)
+2023-01-27T08:06:55.830+09:00  INFO 29120 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T08:06:59.215+09:00  INFO 29120 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-01-27T08:06:59.226+09:00  INFO 29120 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T08:06:59.302+09:00  INFO 29120 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 29120 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T08:06:59.302+09:00  INFO 29120 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T08:06:59.546+09:00  INFO 29120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T08:06:59.547+09:00  INFO 29120 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T08:06:59.554+09:00  INFO 29120 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T08:06:59.609+09:00  INFO 29120 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T08:06:59.610+09:00  INFO 29120 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 306 ms
+2023-01-27T08:06:59.643+09:00  INFO 29120 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T08:06:59.672+09:00  INFO 29120 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T08:06:59.790+09:00  INFO 29120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T08:06:59.792+09:00  INFO 29120 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.518 seconds (process running for 1245.431)
+2023-01-27T08:06:59.793+09:00  INFO 29120 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T08:07:39.860+09:00  INFO 29120 --- [https-jsse-nio-443-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T08:07:39.860+09:00  INFO 29120 --- [https-jsse-nio-443-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T08:07:39.861+09:00  INFO 29120 --- [https-jsse-nio-443-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T08:08:39.208+09:00  INFO 42112 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 42112 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T08:08:39.211+09:00  INFO 42112 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T08:08:39.266+09:00  INFO 42112 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-27T08:08:39.266+09:00  INFO 42112 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-27T08:08:40.395+09:00  INFO 42112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T08:08:40.414+09:00  INFO 42112 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T08:08:40.415+09:00  INFO 42112 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T08:08:40.479+09:00  INFO 42112 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T08:08:40.480+09:00  INFO 42112 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1214 ms
+2023-01-27T08:08:40.727+09:00  INFO 42112 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T08:08:40.870+09:00  INFO 42112 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T08:08:41.242+09:00  INFO 42112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T08:08:41.253+09:00  INFO 42112 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 2.674 seconds (process running for 3.517)
+2023-01-27T08:08:41.858+09:00  INFO 42112 --- [https-jsse-nio-443-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T08:08:41.858+09:00  INFO 42112 --- [https-jsse-nio-443-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T08:08:41.859+09:00  INFO 42112 --- [https-jsse-nio-443-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T08:10:47.328+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T08:10:47.332+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T08:10:47.401+09:00  INFO 41616 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-27T08:10:47.401+09:00  INFO 41616 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-27T08:10:48.502+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T08:10:48.518+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T08:10:48.519+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T08:10:48.578+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T08:10:48.579+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1178 ms
+2023-01-27T08:10:48.829+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T08:10:48.985+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T08:10:49.319+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T08:10:49.339+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 2.818 seconds (process running for 3.717)
+2023-01-27T08:12:16.652+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-01-27T08:12:16.673+09:00  INFO 41616 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T08:12:16.772+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T08:12:16.773+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T08:12:16.985+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T08:12:16.986+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T08:12:16.986+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T08:12:17.007+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T08:12:17.008+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 233 ms
+2023-01-27T08:12:17.041+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T08:12:17.067+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T08:12:17.184+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T08:12:17.188+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.445 seconds (process running for 91.567)
+2023-01-27T08:12:17.190+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T08:12:20.549+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-01-27T08:12:20.570+09:00  INFO 41616 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T08:12:20.699+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T08:12:20.700+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T08:12:20.867+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T08:12:20.868+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T08:12:20.868+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T08:12:20.882+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T08:12:20.882+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 180 ms
+2023-01-27T08:12:20.913+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T08:12:20.929+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T08:12:21.057+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T08:12:21.059+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.393 seconds (process running for 95.438)
+2023-01-27T08:12:21.060+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T08:12:33.525+09:00  INFO 41616 --- [https-jsse-nio-443-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T08:12:33.526+09:00  INFO 41616 --- [https-jsse-nio-443-exec-7] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T08:12:33.528+09:00  INFO 41616 --- [https-jsse-nio-443-exec-7] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T08:13:22.884+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-01-27T08:13:22.897+09:00  INFO 41616 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T08:13:22.898+09:00  INFO 41616 --- [Thread-11] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T08:13:22.958+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T08:13:22.959+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T08:13:23.134+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T08:13:23.135+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T08:13:23.135+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T08:13:23.148+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T08:13:23.148+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 186 ms
+2023-01-27T08:13:23.185+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T08:13:23.217+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T08:13:23.356+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T08:13:23.360+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.427 seconds (process running for 157.738)
+2023-01-27T08:13:23.361+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T08:13:25.537+09:00  INFO 41616 --- [https-jsse-nio-443-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T08:13:25.537+09:00  INFO 41616 --- [https-jsse-nio-443-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T08:13:25.538+09:00  INFO 41616 --- [https-jsse-nio-443-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T08:13:25.681+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-01-27T08:13:25.696+09:00  INFO 41616 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T08:13:25.697+09:00  INFO 41616 --- [Thread-15] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T08:13:25.782+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T08:13:25.783+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T08:13:25.952+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T08:13:25.953+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T08:13:25.953+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T08:13:25.965+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T08:13:25.965+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 179 ms
+2023-01-27T08:13:25.995+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T08:13:26.016+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T08:13:26.147+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T08:13:26.150+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.404 seconds (process running for 160.529)
+2023-01-27T08:13:26.151+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T08:13:28.867+09:00  INFO 41616 --- [https-jsse-nio-443-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T08:13:28.868+09:00  INFO 41616 --- [https-jsse-nio-443-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T08:13:28.869+09:00  INFO 41616 --- [https-jsse-nio-443-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T08:15:39.876+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-01-27T08:15:39.888+09:00  INFO 41616 --- [Thread-19] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T08:15:39.889+09:00  INFO 41616 --- [Thread-19] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T08:15:39.941+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T08:15:39.941+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T08:15:40.136+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T08:15:40.137+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T08:15:40.137+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T08:15:40.150+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T08:15:40.150+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 207 ms
+2023-01-27T08:15:40.192+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T08:15:40.213+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T08:15:40.355+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T08:15:40.360+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.442 seconds (process running for 294.739)
+2023-01-27T08:15:40.363+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T08:15:40.412+09:00  INFO 41616 --- [https-jsse-nio-443-exec-8] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T08:15:40.412+09:00  INFO 41616 --- [https-jsse-nio-443-exec-8] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T08:15:40.413+09:00  INFO 41616 --- [https-jsse-nio-443-exec-8] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T08:15:42.673+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-01-27T08:15:42.692+09:00  INFO 41616 --- [Thread-23] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T08:15:42.693+09:00  INFO 41616 --- [Thread-23] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T08:15:42.775+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T08:15:42.775+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T08:15:42.964+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T08:15:42.964+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T08:15:42.964+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T08:15:42.977+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T08:15:42.977+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 200 ms
+2023-01-27T08:15:43.004+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T08:15:43.017+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T08:15:43.123+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T08:15:43.125+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.373 seconds (process running for 297.503)
+2023-01-27T08:15:43.126+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T08:15:44.003+09:00  INFO 41616 --- [https-jsse-nio-443-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T08:15:44.003+09:00  INFO 41616 --- [https-jsse-nio-443-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T08:15:44.004+09:00  INFO 41616 --- [https-jsse-nio-443-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T08:16:55.225+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-01-27T08:16:55.238+09:00  INFO 41616 --- [Thread-27] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T08:16:55.239+09:00  INFO 41616 --- [Thread-27] o.apache.catalina.core.StandardWrapper   : Waiting for [1] instance(s) to be deallocated for Servlet [dispatcherServlet]
+2023-01-27T08:16:55.458+09:00  INFO 41616 --- [Thread-27] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T08:16:55.533+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T08:16:55.533+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T08:16:55.711+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T08:16:55.712+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T08:16:55.712+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T08:16:55.727+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T08:16:55.728+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 193 ms
+2023-01-27T08:16:55.794+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T08:16:55.817+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T08:16:55.960+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T08:16:55.963+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.469 seconds (process running for 370.341)
+2023-01-27T08:16:55.963+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T08:16:56.448+09:00  INFO 41616 --- [https-jsse-nio-443-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T08:16:56.449+09:00  INFO 41616 --- [https-jsse-nio-443-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T08:16:56.449+09:00  INFO 41616 --- [https-jsse-nio-443-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-01-27T08:16:57.256+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-01-27T08:16:57.267+09:00  INFO 41616 --- [Thread-31] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T08:16:57.267+09:00  INFO 41616 --- [Thread-31] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T08:16:57.354+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T08:16:57.354+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T08:16:57.515+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T08:16:57.515+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T08:16:57.515+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T08:16:57.527+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T08:16:57.527+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 171 ms
+2023-01-27T08:16:57.564+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T08:16:57.579+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T08:16:57.691+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T08:16:57.694+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.365 seconds (process running for 372.073)
+2023-01-27T08:16:57.696+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T08:16:58.963+09:00  INFO 41616 --- [https-jsse-nio-443-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T08:16:58.963+09:00  INFO 41616 --- [https-jsse-nio-443-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T08:16:58.963+09:00  INFO 41616 --- [https-jsse-nio-443-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-01-27T08:17:13.312+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-01-27T08:17:13.323+09:00  INFO 41616 --- [Thread-35] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T08:17:13.324+09:00  INFO 41616 --- [Thread-35] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T08:17:13.393+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T08:17:13.394+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T08:17:13.566+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T08:17:13.567+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T08:17:13.567+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T08:17:13.581+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T08:17:13.581+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 186 ms
+2023-01-27T08:17:13.611+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T08:17:13.630+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T08:17:13.757+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T08:17:13.760+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.394 seconds (process running for 388.139)
+2023-01-27T08:17:13.761+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T08:17:15.066+09:00  INFO 41616 --- [https-jsse-nio-443-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T08:17:15.067+09:00  INFO 41616 --- [https-jsse-nio-443-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T08:17:15.067+09:00  INFO 41616 --- [https-jsse-nio-443-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-01-27T08:17:16.085+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-01-27T08:17:16.097+09:00  INFO 41616 --- [Thread-39] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T08:17:16.097+09:00  INFO 41616 --- [Thread-39] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T08:17:16.180+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T08:17:16.180+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T08:17:16.345+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T08:17:16.346+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T08:17:16.346+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T08:17:16.357+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T08:17:16.357+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 175 ms
+2023-01-27T08:17:16.391+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T08:17:16.405+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T08:17:16.522+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T08:17:16.525+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.368 seconds (process running for 390.904)
+2023-01-27T08:17:16.527+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T08:17:18.853+09:00  INFO 41616 --- [https-jsse-nio-443-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T08:17:18.853+09:00  INFO 41616 --- [https-jsse-nio-443-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T08:17:18.853+09:00  INFO 41616 --- [https-jsse-nio-443-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-01-27T08:19:10.847+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-01-27T08:19:10.861+09:00  INFO 41616 --- [Thread-43] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T08:19:10.861+09:00  INFO 41616 --- [Thread-43] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T08:19:10.927+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T08:19:10.927+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T08:19:11.098+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T08:19:11.098+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T08:19:11.099+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T08:19:11.113+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T08:19:11.114+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 185 ms
+2023-01-27T08:19:11.144+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T08:19:11.160+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T08:19:11.291+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T08:19:11.294+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.39 seconds (process running for 505.673)
+2023-01-27T08:19:11.296+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T08:19:13.646+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-01-27T08:19:13.659+09:00  INFO 41616 --- [Thread-47] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T08:19:13.749+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T08:19:13.749+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T08:19:13.938+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T08:19:13.939+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T08:19:13.940+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T08:19:13.959+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T08:19:13.959+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 207 ms
+2023-01-27T08:19:13.989+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T08:19:14.003+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T08:19:14.111+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T08:19:14.114+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.39 seconds (process running for 508.492)
+2023-01-27T08:19:14.114+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T08:19:16.181+09:00  INFO 41616 --- [https-jsse-nio-443-exec-8] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T08:19:16.181+09:00  INFO 41616 --- [https-jsse-nio-443-exec-8] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T08:19:16.181+09:00  INFO 41616 --- [https-jsse-nio-443-exec-8] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-01-27T08:23:39.508+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-01-27T08:23:39.612+09:00  INFO 41616 --- [Thread-51] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T08:23:39.613+09:00  INFO 41616 --- [Thread-51] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T08:23:39.768+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T08:23:39.769+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T08:23:39.917+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T08:23:39.917+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T08:23:39.917+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T08:23:39.933+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T08:23:39.933+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 161 ms
+2023-01-27T08:23:39.989+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T08:23:40.023+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T08:23:40.163+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T08:23:40.165+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.463 seconds (process running for 774.544)
+2023-01-27T08:23:40.166+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T08:23:43.490+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-01-27T08:23:43.500+09:00  INFO 41616 --- [Thread-55] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T08:23:43.585+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T08:23:43.586+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T08:23:43.762+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T08:23:43.763+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T08:23:43.763+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T08:23:43.779+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T08:23:43.779+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 191 ms
+2023-01-27T08:23:43.804+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T08:23:43.819+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T08:23:43.947+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T08:23:43.949+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.384 seconds (process running for 778.328)
+2023-01-27T08:23:43.950+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T08:24:34.820+09:00  INFO 41616 --- [https-jsse-nio-443-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T08:24:34.820+09:00  INFO 41616 --- [https-jsse-nio-443-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T08:24:34.820+09:00  INFO 41616 --- [https-jsse-nio-443-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-01-27T10:27:52.145+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-01-27T10:27:52.161+09:00  INFO 41616 --- [Thread-59] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T10:27:52.162+09:00  INFO 41616 --- [Thread-59] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T10:27:52.252+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T10:27:52.252+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T10:27:52.559+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T10:27:52.560+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T10:27:52.561+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T10:27:52.575+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T10:27:52.576+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 320 ms
+2023-01-27T10:27:52.622+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T10:27:52.646+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T10:27:52.783+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T10:27:52.786+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.572 seconds (process running for 8227.166)
+2023-01-27T10:27:52.788+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T10:27:55.138+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-01-27T10:27:55.152+09:00  INFO 41616 --- [Thread-63] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T10:27:55.255+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T10:27:55.255+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T10:27:55.442+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T10:27:55.443+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T10:27:55.443+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T10:27:55.454+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T10:27:55.454+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 197 ms
+2023-01-27T10:27:55.480+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T10:27:55.491+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T10:27:55.608+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T10:27:55.610+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.377 seconds (process running for 8229.989)
+2023-01-27T10:27:55.612+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T10:28:00.786+09:00  INFO 41616 --- [https-jsse-nio-443-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T10:28:00.786+09:00  INFO 41616 --- [https-jsse-nio-443-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T10:28:00.786+09:00  INFO 41616 --- [https-jsse-nio-443-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-01-27T10:28:01.010+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-01-27T10:28:01.022+09:00  INFO 41616 --- [Thread-67] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T10:28:01.022+09:00  INFO 41616 --- [Thread-67] o.apache.catalina.core.StandardWrapper   : Waiting for [1] instance(s) to be deallocated for Servlet [dispatcherServlet]
+2023-01-27T10:28:01.793+09:00  INFO 41616 --- [Thread-67] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T10:28:01.870+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T10:28:01.870+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T10:28:02.023+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T10:28:02.024+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T10:28:02.024+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T10:28:02.042+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T10:28:02.042+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 170 ms
+2023-01-27T10:28:02.090+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T10:28:02.110+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T10:28:02.233+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T10:28:02.236+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.389 seconds (process running for 8236.615)
+2023-01-27T10:28:02.238+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T10:28:04.575+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-01-27T10:28:04.587+09:00  INFO 41616 --- [Thread-71] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T10:28:04.689+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T10:28:04.689+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T10:28:04.857+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T10:28:04.858+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T10:28:04.859+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T10:28:04.875+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T10:28:04.875+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 184 ms
+2023-01-27T10:28:04.912+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T10:28:04.932+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T10:28:05.065+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T10:28:05.068+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.401 seconds (process running for 8239.447)
+2023-01-27T10:28:05.069+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T10:28:32.379+09:00  INFO 41616 --- [https-jsse-nio-443-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T10:28:32.379+09:00  INFO 41616 --- [https-jsse-nio-443-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T10:28:32.380+09:00  INFO 41616 --- [https-jsse-nio-443-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T10:29:02.585+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-01-27T10:29:02.597+09:00  INFO 41616 --- [Thread-75] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T10:29:02.597+09:00  INFO 41616 --- [Thread-75] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T10:29:02.664+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T10:29:02.664+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T10:29:02.830+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T10:29:02.830+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T10:29:02.831+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T10:29:02.845+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T10:29:02.845+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 178 ms
+2023-01-27T10:29:02.873+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T10:29:02.890+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T10:29:03.011+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T10:29:03.014+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.371 seconds (process running for 8297.393)
+2023-01-27T10:29:03.016+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T10:29:04.828+09:00  INFO 41616 --- [https-jsse-nio-443-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T10:29:04.828+09:00  INFO 41616 --- [https-jsse-nio-443-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T10:29:04.828+09:00  INFO 41616 --- [https-jsse-nio-443-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-01-27T10:29:05.346+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-01-27T10:29:05.362+09:00  INFO 41616 --- [Thread-79] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T10:29:05.362+09:00  INFO 41616 --- [Thread-79] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T10:29:05.457+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T10:29:05.458+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T10:29:05.651+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T10:29:05.652+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T10:29:05.652+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T10:29:05.662+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T10:29:05.662+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 203 ms
+2023-01-27T10:29:05.685+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T10:29:05.696+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T10:29:05.815+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T10:29:05.819+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.384 seconds (process running for 8300.197)
+2023-01-27T10:29:05.819+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T10:29:09.121+09:00  INFO 41616 --- [https-jsse-nio-443-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T10:29:09.121+09:00  INFO 41616 --- [https-jsse-nio-443-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T10:29:09.122+09:00  INFO 41616 --- [https-jsse-nio-443-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T10:29:34.640+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-01-27T10:29:34.652+09:00  INFO 41616 --- [Thread-83] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T10:29:34.653+09:00  INFO 41616 --- [Thread-83] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T10:29:34.733+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T10:29:34.733+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T10:29:34.929+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T10:29:34.930+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T10:29:34.930+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T10:29:34.947+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T10:29:34.947+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 212 ms
+2023-01-27T10:29:34.989+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T10:29:35.005+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T10:29:35.132+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T10:29:35.136+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.424 seconds (process running for 8329.515)
+2023-01-27T10:29:35.138+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T10:29:35.178+09:00  INFO 41616 --- [https-jsse-nio-443-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T10:29:35.178+09:00  INFO 41616 --- [https-jsse-nio-443-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T10:29:35.179+09:00  INFO 41616 --- [https-jsse-nio-443-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T10:29:37.465+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-01-27T10:29:37.477+09:00  INFO 41616 --- [Thread-87] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T10:29:37.477+09:00  INFO 41616 --- [Thread-87] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T10:29:37.568+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T10:29:37.569+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T10:29:37.803+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T10:29:37.803+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T10:29:37.804+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T10:29:37.816+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T10:29:37.816+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 244 ms
+2023-01-27T10:29:37.848+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T10:29:37.863+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T10:29:37.994+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T10:29:37.997+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.465 seconds (process running for 8332.376)
+2023-01-27T10:29:37.998+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T10:29:38.036+09:00  INFO 41616 --- [https-jsse-nio-443-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T10:29:38.036+09:00  INFO 41616 --- [https-jsse-nio-443-exec-7] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T10:29:38.036+09:00  INFO 41616 --- [https-jsse-nio-443-exec-7] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-01-27T10:30:02.739+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-01-27T10:30:02.753+09:00  INFO 41616 --- [Thread-91] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T10:30:02.754+09:00  INFO 41616 --- [Thread-91] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T10:30:02.818+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T10:30:02.818+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T10:30:02.996+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T10:30:02.997+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T10:30:02.997+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T10:30:03.013+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T10:30:03.013+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 192 ms
+2023-01-27T10:30:03.063+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T10:30:03.079+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T10:30:03.202+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T10:30:03.206+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.413 seconds (process running for 8357.585)
+2023-01-27T10:30:03.208+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T10:30:05.545+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-01-27T10:30:05.555+09:00  INFO 41616 --- [Thread-95] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T10:30:05.658+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T10:30:05.658+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T10:30:05.867+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T10:30:05.867+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T10:30:05.867+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T10:30:05.881+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T10:30:05.881+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 221 ms
+2023-01-27T10:30:05.901+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T10:30:05.915+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T10:30:06.101+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T10:30:06.104+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.47 seconds (process running for 8360.482)
+2023-01-27T10:30:06.105+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T10:30:15.315+09:00  INFO 41616 --- [https-jsse-nio-443-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T10:30:15.315+09:00  INFO 41616 --- [https-jsse-nio-443-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T10:30:15.315+09:00  INFO 41616 --- [https-jsse-nio-443-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-01-27T10:46:49.165+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-01-27T10:46:49.178+09:00  INFO 41616 --- [Thread-99] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T10:46:49.178+09:00  INFO 41616 --- [Thread-99] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T10:46:49.248+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T10:46:49.248+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T10:46:49.425+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T10:46:49.426+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T10:46:49.426+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T10:46:49.440+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T10:46:49.440+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 190 ms
+2023-01-27T10:46:49.485+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T10:46:49.506+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T10:46:49.631+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T10:46:49.634+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.41 seconds (process running for 9364.013)
+2023-01-27T10:46:49.635+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T10:46:51.959+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-01-27T10:46:51.983+09:00  INFO 41616 --- [Thread-103] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T10:46:52.069+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T10:46:52.069+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T10:46:52.235+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T10:46:52.236+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T10:46:52.236+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T10:46:52.251+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T10:46:52.251+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 180 ms
+2023-01-27T10:46:52.276+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T10:46:52.288+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T10:46:52.403+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T10:46:52.406+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.357 seconds (process running for 9366.785)
+2023-01-27T10:46:52.407+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T10:47:02.753+09:00  INFO 41616 --- [https-jsse-nio-443-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T10:47:02.753+09:00  INFO 41616 --- [https-jsse-nio-443-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T10:47:02.754+09:00  INFO 41616 --- [https-jsse-nio-443-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T11:32:51.908+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-01-27T11:32:51.921+09:00  INFO 41616 --- [Thread-107] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T11:32:51.921+09:00  INFO 41616 --- [Thread-107] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T11:32:51.991+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T11:32:51.991+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T11:32:52.213+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T11:32:52.215+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T11:32:52.216+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T11:32:52.230+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T11:32:52.230+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 235 ms
+2023-01-27T11:32:52.265+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T11:32:52.286+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T11:32:52.424+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T11:32:52.427+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.466 seconds (process running for 12126.806)
+2023-01-27T11:32:52.428+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T11:32:54.750+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-01-27T11:32:54.761+09:00  INFO 41616 --- [Thread-111] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T11:32:54.878+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T11:32:54.878+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T11:32:55.064+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T11:32:55.065+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T11:32:55.065+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T11:32:55.078+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T11:32:55.078+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 196 ms
+2023-01-27T11:32:55.114+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T11:32:55.127+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T11:32:55.260+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T11:32:55.263+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.415 seconds (process running for 12129.641)
+2023-01-27T11:32:55.264+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T11:33:31.134+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-01-27T11:33:31.146+09:00  INFO 41616 --- [Thread-115] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T11:33:31.231+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T11:33:31.232+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T11:33:31.475+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T11:33:31.476+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T11:33:31.476+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T11:33:31.494+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T11:33:31.495+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 259 ms
+2023-01-27T11:33:31.535+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T11:33:31.558+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T11:33:31.718+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T11:33:31.725+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.527 seconds (process running for 12166.104)
+2023-01-27T11:33:31.726+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T11:33:34.022+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-01-27T11:33:34.033+09:00  INFO 41616 --- [Thread-119] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T11:33:34.108+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T11:33:34.108+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T11:33:34.283+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T11:33:34.283+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T11:33:34.283+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T11:33:34.297+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T11:33:34.298+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 188 ms
+2023-01-27T11:33:34.335+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T11:33:34.344+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T11:33:34.467+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T11:33:34.470+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.385 seconds (process running for 12168.849)
+2023-01-27T11:33:34.471+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T11:33:46.967+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 4 deletions, 0 modifications)
+2023-01-27T11:33:46.980+09:00  INFO 41616 --- [Thread-123] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T11:33:47.076+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T11:33:47.076+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T11:33:47.268+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T11:33:47.269+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T11:33:47.269+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T11:33:47.283+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T11:33:47.283+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 205 ms
+2023-01-27T11:33:47.308+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T11:33:47.321+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T11:33:47.456+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T11:33:47.459+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.404 seconds (process running for 12181.838)
+2023-01-27T11:33:47.460+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T11:33:48.753+09:00  INFO 41616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (4 additions, 0 deletions, 0 modifications)
+2023-01-27T11:33:48.769+09:00  INFO 41616 --- [Thread-127] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T11:33:48.897+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 41616 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T11:33:48.898+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T11:33:49.078+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T11:33:49.079+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T11:33:49.079+09:00  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T11:33:49.092+09:00  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T11:33:49.092+09:00  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 192 ms
+2023-01-27T11:33:49.124+09:00  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T11:33:49.141+09:00  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T11:33:49.269+09:00  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T11:33:49.271+09:00  INFO 41616 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.399 seconds (process running for 12183.649)
+2023-01-27T11:33:49.272+09:00  INFO 41616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T11:33:54.512+09:00  INFO 41616 --- [https-jsse-nio-443-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T11:33:54.512+09:00  INFO 41616 --- [https-jsse-nio-443-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T11:33:54.513+09:00  INFO 41616 --- [https-jsse-nio-443-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T22:38:34.503+09:00  INFO 36876 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 36876 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T22:38:34.507+09:00  INFO 36876 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T22:38:34.598+09:00  INFO 36876 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-27T22:38:34.598+09:00  INFO 36876 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-27T22:38:35.697+09:00  INFO 36876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T22:38:35.727+09:00  INFO 36876 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T22:38:35.728+09:00  INFO 36876 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T22:38:35.792+09:00  INFO 36876 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T22:38:35.793+09:00  INFO 36876 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1194 ms
+2023-01-27T22:38:36.028+09:00  INFO 36876 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T22:38:36.164+09:00  INFO 36876 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T22:38:36.493+09:00  INFO 36876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T22:38:36.503+09:00  INFO 36876 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 2.663 seconds (process running for 3.512)
+2023-01-27T22:38:46.141+09:00  INFO 36876 --- [https-jsse-nio-443-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T22:38:46.142+09:00  INFO 36876 --- [https-jsse-nio-443-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T22:38:46.143+09:00  INFO 36876 --- [https-jsse-nio-443-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T22:39:51.447+09:00  INFO 36876 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-01-27T22:39:51.461+09:00  INFO 36876 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T22:39:51.463+09:00  INFO 36876 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T22:39:51.541+09:00  INFO 36876 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 36876 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T22:39:51.541+09:00  INFO 36876 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T22:39:51.750+09:00  INFO 36876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T22:39:51.751+09:00  INFO 36876 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T22:39:51.751+09:00  INFO 36876 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T22:39:51.767+09:00  INFO 36876 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T22:39:51.767+09:00  INFO 36876 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 224 ms
+2023-01-27T22:39:51.804+09:00  INFO 36876 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T22:39:51.828+09:00  INFO 36876 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T22:39:51.956+09:00  INFO 36876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T22:39:51.960+09:00  INFO 36876 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.448 seconds (process running for 78.97)
+2023-01-27T22:39:51.963+09:00  INFO 36876 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T22:39:54.275+09:00  INFO 36876 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 3 deletions, 0 modifications)
+2023-01-27T22:39:54.286+09:00  INFO 36876 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T22:39:54.390+09:00  INFO 36876 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 36876 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T22:39:54.391+09:00  INFO 36876 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T22:39:54.560+09:00  INFO 36876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T22:39:54.561+09:00  INFO 36876 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T22:39:54.562+09:00  INFO 36876 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T22:39:54.574+09:00  INFO 36876 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T22:39:54.575+09:00  INFO 36876 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 181 ms
+2023-01-27T22:39:54.605+09:00  INFO 36876 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T22:39:54.623+09:00  INFO 36876 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T22:39:54.754+09:00  INFO 36876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T22:39:54.759+09:00  INFO 36876 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.395 seconds (process running for 81.768)
+2023-01-27T22:39:54.760+09:00  INFO 36876 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T22:39:56.066+09:00  INFO 36876 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (4 additions, 0 deletions, 0 modifications)
+2023-01-27T22:39:56.084+09:00  INFO 36876 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T22:39:56.153+09:00  INFO 36876 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 36876 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T22:39:56.154+09:00  INFO 36876 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T22:39:56.308+09:00  INFO 36876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T22:39:56.308+09:00  INFO 36876 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T22:39:56.308+09:00  INFO 36876 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T22:39:56.319+09:00  INFO 36876 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T22:39:56.319+09:00  INFO 36876 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 162 ms
+2023-01-27T22:39:56.353+09:00  INFO 36876 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T22:39:56.370+09:00  INFO 36876 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T22:39:56.486+09:00  INFO 36876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T22:39:56.489+09:00  INFO 36876 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.363 seconds (process running for 83.499)
+2023-01-27T22:39:56.490+09:00  INFO 36876 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T22:40:01.075+09:00  INFO 36876 --- [https-jsse-nio-443-exec-8] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T22:40:01.076+09:00  INFO 36876 --- [https-jsse-nio-443-exec-8] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T22:40:01.077+09:00  INFO 36876 --- [https-jsse-nio-443-exec-8] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T22:40:01.889+09:00  INFO 36876 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-01-27T22:40:01.899+09:00  INFO 36876 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-27T22:40:01.899+09:00  INFO 36876 --- [Thread-15] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-27T22:40:01.957+09:00  INFO 36876 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 36876 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T22:40:01.958+09:00  INFO 36876 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T22:40:02.096+09:00  INFO 36876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T22:40:02.097+09:00  INFO 36876 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T22:40:02.097+09:00  INFO 36876 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T22:40:02.108+09:00  INFO 36876 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T22:40:02.108+09:00  INFO 36876 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 147 ms
+2023-01-27T22:40:02.130+09:00  INFO 36876 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T22:40:02.143+09:00  INFO 36876 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T22:40:02.273+09:00  INFO 36876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T22:40:02.275+09:00  INFO 36876 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 0.342 seconds (process running for 89.285)
+2023-01-27T22:40:02.276+09:00  INFO 36876 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-27T22:40:03.700+09:00  INFO 36876 --- [https-jsse-nio-443-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T22:40:03.700+09:00  INFO 36876 --- [https-jsse-nio-443-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T22:40:03.701+09:00  INFO 36876 --- [https-jsse-nio-443-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27T22:40:15.041+09:00  INFO 4840 --- [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.1 with PID 4840 (C:\projects\X\demo-app-20230128-LT\backend\build\classes\java\main started by Administrator in C:\projects\X\demo-app-20230128-LT\backend)
+2023-01-27T22:40:15.045+09:00  INFO 4840 --- [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-27T22:40:15.098+09:00  INFO 4840 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-27T22:40:15.098+09:00  INFO 4840 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-27T22:40:16.056+09:00  INFO 4840 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2023-01-27T22:40:16.070+09:00  INFO 4840 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27T22:40:16.071+09:00  INFO 4840 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-27T22:40:16.131+09:00  INFO 4840 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27T22:40:16.131+09:00  INFO 4840 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1033 ms
+2023-01-27T22:40:16.337+09:00  INFO 4840 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-27T22:40:16.469+09:00  INFO 4840 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-27T22:40:16.778+09:00  INFO 4840 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2023-01-27T22:40:16.786+09:00  INFO 4840 --- [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 2.282 seconds (process running for 3.017)
+2023-01-27T22:40:17.686+09:00  INFO 4840 --- [https-jsse-nio-443-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27T22:40:17.687+09:00  INFO 4840 --- [https-jsse-nio-443-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27T22:40:17.688+09:00  INFO 4840 --- [https-jsse-nio-443-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

@@ -1,0 +1,16 @@
+server:
+  http2:
+    enabled: true
+  port: 443
+  ssl:
+    key-store: keystore.p12
+    key-store-password: mypassword
+    key-store-type: PKCS12
+logging:
+  level:
+    org:
+      hibernate: ERROR
+      springframework:
+        web: INFO
+  file:
+    name: app.log
